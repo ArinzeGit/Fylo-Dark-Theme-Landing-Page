@@ -31,7 +31,7 @@
 }
 
 .IntroTextContainer{
-    background-image: url("src/assets/images/bg-curvy-desktop.svg");
+    background-image: url("/src/assets/images/bg-curvy-desktop.svg");
     background-size:100%;
     background-repeat: no-repeat;
     background-position: left 0px bottom -27%;
