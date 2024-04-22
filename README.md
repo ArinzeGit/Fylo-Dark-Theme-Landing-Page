@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/Fylo-Dark-Theme-Landing-Page)
-- Live Site URL: I have hosted the project on GitHub Pages [here]()
+- Live Site URL: I have hosted the project on GitHub Pages [here](https://arinzegit.github.io/Fylo-Dark-Theme-Landing-Page/)
 
 ## My process
 
