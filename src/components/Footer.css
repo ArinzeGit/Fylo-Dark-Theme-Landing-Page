@@ -1,0 +1,34 @@
+.Location, .PhoneContact, .EmailContact, .FooterLink{
+    color:white;
+    text-decoration: none;
+}
+
+.Location:hover, .PhoneContact:hover , .EmailContact:hover, .FooterLink:hover{
+    font-weight: 700 !important;
+}
+
+svg.IconLink:hover circle{
+    stroke:hsl(176, 68%, 64%) ;
+}
+
+svg.IconLink:hover path{
+    fill:hsl(176, 68%, 64%) ;
+}
+
+input.Input:focus{
+    outline: 3px solid  hsl(176, 68%, 64%);
+}
+
+.InputContainer{
+    position: relative;
+}
+
+.Error{
+    font-family: OpenSans;
+    font-weight: 700;
+    font-size: 0.625rem;
+    color:hsl(0, 100%, 63%);
+    position:absolute;
+    left:2.7vw;
+    top:3.3rem;
+}

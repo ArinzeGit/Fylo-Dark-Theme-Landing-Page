@@ -1,0 +1,184 @@
+@font-face {
+    font-family:Raleway ;
+    src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:OpenSans ;
+    src: url(./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+.App{
+    background-color:hsl(217, 28%, 15%) ;
+    color: hsl(0, 0%, 100%);
+}
+
+.NavBar{
+    padding: 87.4px 0 0 0;
+    float: right;
+    width: 24.1vw;
+    display:grid;
+    grid-template-columns: 3fr 2.44fr 3.2fr;
+}
+
+.HeaderLogo{
+    padding: 4.563rem 0 0 5.4vw;
+}
+
+.IntroPicture{
+    text-align: center;
+    margin-top: 74.9px;
+}
+
+.IntroTextContainer{
+    background-image: url("src/assets/images/bg-curvy-desktop.svg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: left 0px bottom -27%;
+    height: 36.6vw;
+    min-height: 436px;
+    position: relative;
+}
+
+.IntroText{ 
+    position:absolute;
+    top: 6.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Features{
+    background-color: hsl(218, 28%, 13%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding:0 15vw 0 13.8vw;
+    gap:5.7rem 0 ;
+}
+
+@media screen and (max-width: 1000px) {
+    .Features {
+        grid-template-columns: 1fr; /* Change from 2by2 grid to 1by4 grid for smaller screen */
+    }
+}
+
+.Body{
+    background-color:hsl(218, 28%, 13%) ;
+    text-align: center;
+    padding-top: 6.5rem;
+}
+
+.BodyPicture, .BodyText{
+    display: inline-block;
+    vertical-align:middle;
+    text-align: left;
+    margin: 1.78rem;
+}
+
+.BodyText{
+    padding-top:2.5rem;
+}
+
+.TestimonialSection{
+    background-color:hsl(218, 28%, 13%) ;
+    padding: 9.4rem 9.55vw 22.5rem;
+}
+
+.Testimonial{ /* parent of .BigQuotes and .TestimonialCards */
+    position: relative;
+}
+
+.BigQuotes{
+    position: absolute;
+    transform: translate(-15% ,-85%);
+    z-index: auto;
+}
+
+.TestimonialCards{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between; 
+}
+
+@media screen and (max-width: 1345px) {
+    .TestimonialCards{
+        display: grid !important ; /*change horizontal flexbox to vertical grid for smaller screen*/
+        grid-template-columns: 1fr;
+        gap:50px;    
+    }
+
+    .Testimonial{
+        display: inline-block; /*change from block to inline-block so that text-align:center can be used to center it*/
+    }
+
+   .TestimonialSection{
+    text-align: center;
+   }
+}
+
+.Footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 12.7rem 0 5rem 8.15vw;
+    position: relative;
+}
+
+.FooterLogo{
+    margin-bottom: 1.95rem;
+}
+
+.FooterItems{
+    display:grid;
+    grid-template-columns: 11.5fr 7.85fr 3.7fr 4.87fr 4.98fr;
+}
+
+@media screen and (max-width: 1000px) { /* for smaller screen */
+    .FooterLogo{
+        margin-bottom: 100px;
+    }
+    
+    .FooterItems{
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
+    .FooterItems .Icons{
+        text-align: center;
+    }
+}
+
+.EmailSignUp{
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%, -58%);
+}
+
+@media screen and (max-width: 1000px) {
+    .EmailSignUp .InputContainer{
+        width: 70% !important;
+        margin: 0 0 3rem 0 !important;
+    }
+
+    .EmailSignUp .Button{
+        width: 70% !important;
+    }
+
+    .EmailSignUp{
+        transform: translate(-50%, -65%);
+    }
+}
+
+.Attribution {
+    font-size: 11px;
+    position:absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color:hsl(30, 100%, 50%);
+}
+
+.Attribution a {
+    color:  hsl(216, 53%, 50%);
+}
+

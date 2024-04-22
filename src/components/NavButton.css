@@ -1,0 +1,13 @@
+a.NavButton{
+    color:white;
+    font-family: Raleway;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1rem;
+}
+    
+a.NavButton:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}
