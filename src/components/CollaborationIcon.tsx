@@ -1,8 +1,9 @@
+import CollaborationIconSrc from "../../src/assets/images/icon-collaboration.svg";
 const CollaborationIcon = () => {
   return (
     <img
       style={{ width: "5.9vw", height: "auto" }}
-      src="src/assets/images/icon-collaboration.svg"
+      src={CollaborationIconSrc}
       alt="Real-time collaboration"
     />
   );

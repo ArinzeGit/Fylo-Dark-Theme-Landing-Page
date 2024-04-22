@@ -20,6 +20,9 @@ import TwitterIcon from "./components/TwitterIcon";
 import InstagramIcon from "./components/InstagramIcon";
 import FacebookIcon from "./components/FacebookIcon";
 import EmailSignUp from "./components/EmailSignUp";
+import Profile1 from "../src/assets/images/profile-1.jpg";
+import Profile2 from "../src/assets/images/profile-2.jpg";
+import Profile3 from "../src/assets/images/profile-3.jpg";
 
 const App = () => {
   return (
@@ -104,19 +107,19 @@ const App = () => {
               message="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
               name="Satish Patel"
               occupation="Founder & CEO, Huddle"
-              pictureSrc="src\assets\images\profile-1.jpg"
+              pictureSrc={Profile1}
             />
             <TestimonialCard
               message="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
               name="Bruce McKenzie"
               occupation="Founder & CEO, Huddle"
-              pictureSrc="src\assets\images\profile-2.jpg"
+              pictureSrc={Profile2}
             />
             <TestimonialCard
               message="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
               name="Iva Boyd"
               occupation="Founder & CEO, Huddle"
-              pictureSrc="src\assets\images\profile-3.jpg"
+              pictureSrc={Profile3}
             />
           </div>
         </div>
