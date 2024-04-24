@@ -8,17 +8,20 @@ interface Props {
 const IntroText = ({ heading, content, buttonText }: Props) => {
   return (
     <div style={{ textAlign: "center" }}>
-      <p
-        style={{
-          fontFamily: "Raleway",
-          fontWeight: "700",
-          fontSize: "2.505rem",
-          width: "48vw",
-          minWidth: "575px",
-        }}
-      >
-        {heading}
-      </p>
+      <h1>
+        <p
+          style={{
+            fontFamily: "Raleway",
+            fontWeight: "700",
+            fontSize: "2.505rem",
+            width: "48vw",
+            minWidth: "575px",
+            lineHeight: "1.5",
+          }}
+        >
+          {heading}
+        </p>
+      </h1>
 
       <p
         style={{
