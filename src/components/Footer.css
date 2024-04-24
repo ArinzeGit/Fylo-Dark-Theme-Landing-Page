@@ -15,6 +15,17 @@ svg.IconLink:hover path{
     fill:hsl(176, 68%, 64%) ;
 }
 
+.VisuallyHidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 input.Input:focus{
     outline: 3px solid  hsl(176, 68%, 64%);
 }
