@@ -8,6 +8,10 @@
     src: url(./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
+.Body{
+    margin: 0;
+}
+
 .App{
     background-color:hsl(217, 28%, 15%) ;
     color: hsl(0, 0%, 100%);
