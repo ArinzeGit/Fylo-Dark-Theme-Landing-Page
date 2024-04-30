@@ -166,20 +166,15 @@ const App = () => {
           />
         </div>
         <div className="attribution">
-          <span>
-            Challenge by{" "}
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-            >
-              Frontend Mentor
-            </a>
-            . Coded by{" "}
-            <a href="https://github.com/ArinzeGit" target="_blank">
-              Arinze Owoh
-            </a>
-            .
-          </span>
+          Challenge by{" "}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://github.com/ArinzeGit" target="_blank">
+            Arinze Owoh
+          </a>
+          .
         </div>
       </footer>
     </div>
