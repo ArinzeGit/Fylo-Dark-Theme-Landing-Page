@@ -56,7 +56,7 @@ Users should be able to:
 - I learned the `CSS grid` layout model. It gave me more control than `Flexbox` to achieve some specific layouts.
 
 ```css
-.FooterItems {
+.footer-items {
   display: grid;
   grid-template-columns: 11.5fr 7.85fr 3.7fr 4.87fr 4.98fr;
 }
@@ -66,44 +66,44 @@ Users should be able to:
 
 ```css
 @media screen and (max-width: 1000px) {
-  .Features {
+  .features {
     grid-template-columns: 1fr; /* Change from 2by2 grid to 1by4 grid for smaller screen */
   }
 }
 
 @media screen and (max-width: 1345px) {
-  .TestimonialCards {
+  .testimonial-cards {
     display: grid !important ; /*change horizontal flexbox to vertical grid for smaller screen*/
     grid-template-columns: 1fr;
     gap: 50px;
   }
 
-  .Testimonial {
+  .testimonial {
     display: inline-block; /*change from block to inline-block so that 'text-align:center' from parent can affect it*/
   }
 
-  .TestimonialSection {
+  .testimonial-section {
     text-align: center;
   }
 }
 
-.FooterItems {
+.footer-items {
   display: grid;
   grid-template-columns: 11.5fr 7.85fr 3.7fr 4.87fr 4.98fr;
 }
 
 @media screen and (max-width: 1000px) {
   /* for smaller screen */
-  .FooterLogo {
+  .footer-logo {
     margin-bottom: 100px;
   }
 
-  .FooterItems {
+  .footer-items {
     grid-template-columns: 1fr;
     gap: 100px;
   }
 
-  .FooterItems .Icons {
+  .footer-items .icons {
     text-align: center;
   }
 }
@@ -113,16 +113,16 @@ Users should be able to:
 
 ```css
 @media screen and (max-width: 1000px) {
-  .EmailSignUp .InputContainer {
+  .email-sign-up .input-container {
     width: 70% !important;
     margin: 0 0 3rem 0 !important;
   }
 
-  .EmailSignUp .Button {
+  .email-sign-up .button {
     width: 70% !important;
   }
 
-  .EmailSignUp {
+  .email-sign-up {
     transform: translate(-50%, -65%);
   }
 }
@@ -136,7 +136,7 @@ const InstagramIcon = () => {
   return (
     <a href="#">
       <svg
-        className="IconLink"
+        className="icon-link"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
         style={{ width: "31.2px", height: "auto", marginLeft: "12.5px" }}
@@ -160,6 +160,7 @@ const InstagramIcon = () => {
           d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"
         />
       </svg>
+      <span className="visually-hidden">Instagram Icon Link</span>
     </a>
   );
 };
@@ -168,11 +169,11 @@ export default InstagramIcon;
 ```
 
 ```css
-svg.IconLink:hover circle {
+svg.icon-link:hover circle {
   stroke: hsl(176, 68%, 64%);
 }
 
-svg.IconLink:hover path {
+svg.icon-link:hover path {
   fill: hsl(176, 68%, 64%);
 }
 ```
@@ -180,18 +181,18 @@ svg.IconLink:hover path {
 - I learned to control the overlap of positioned elements using `Z-index`.
 
 ```css
-.Testimonial {
-  /* parent of .BigQuotes and .TestimonialCards */
+.testimonial {
+  /* parent of .big-quotes and .testimonial-cards */
   position: relative;
 }
 
-.BigQuotes {
+.big-quotes {
   position: absolute;
   transform: translate(-15%, -85%);
   z-index: auto;
 }
 
-.TestimonialCards {
+.testimonial-cards {
   position: relative;
   z-index: 1;
   display: flex;
@@ -203,18 +204,21 @@ svg.IconLink:hover path {
 
 ```js
 import "./Button.css";
+
 interface Props {
   children: string;
   width: string;
   heightInRem: number;
   fontSize?: string;
 }
+
 const Button = ({ children, width, heightInRem, fontSize = "1rem" }: Props) => {
   const height = `${heightInRem}rem`;
   const borderRadius = `${heightInRem / 2}rem`;
+
   return (
     <button
-      className="Button"
+      className="button"
       type="submit"
       style={{ width, height, borderRadius, fontSize }} //shorthand for style={{ width:width, height:height, borderRadius:borderRadius, fontSize:fontSize }}
     >
