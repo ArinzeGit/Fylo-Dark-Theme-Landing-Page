@@ -15,11 +15,14 @@ const EmailSignUp = ({ heading, message, buttonText }: Props) => {
   function handleInput(event: ChangeEvent<HTMLInputElement>) {
     setEmailValue(event.target.value);
   }
+
   const [error, setError] = useState("");
+
   function handleValidation(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError(EmailValidation(emailValue));
   }
+
   return (
     <div
       style={{
@@ -58,7 +61,7 @@ const EmailSignUp = ({ heading, message, buttonText }: Props) => {
       <form onSubmit={handleValidation} noValidate>
         <div style={{ paddingBottom: "2.4rem" }}>
           <div
-            className="InputContainer"
+            className="input-container"
             style={{
               display: "inline-block",
               width: "55.7%",
@@ -72,7 +75,7 @@ const EmailSignUp = ({ heading, message, buttonText }: Props) => {
               id="exampleInputEmail1"
               placeholder="email@example.com"
               onChange={handleInput}
-              className="Input"
+              className="input"
               style={{
                 width: "100%",
                 height: "100%",
@@ -83,7 +86,7 @@ const EmailSignUp = ({ heading, message, buttonText }: Props) => {
                 paddingLeft: "2.68vw",
               }}
             />
-            {error && <p className="Error ">{error}</p>}
+            {error && <p className="error ">{error}</p>}
           </div>
 
           <Button width="13.74vw" heightInRem={3} fontSize="0.89rem">

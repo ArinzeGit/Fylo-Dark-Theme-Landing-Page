@@ -26,23 +26,23 @@ import Profile3 from "../src/assets/images/profile-3.jpg";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <nav>
-        <div className="NavBar">
+        <div className="nav-bar">
           <NavButton>Features</NavButton>
           <NavButton>Team</NavButton>
           <NavButton>Sign In</NavButton>
         </div>
       </nav>
       <main>
-        <div className="HeaderLogo">
+        <div className="header-logo">
           <Logo />
         </div>
-        <div className="IntroPicture">
+        <div className="intro-picture">
           <IntroPicture />
         </div>
-        <div className="IntroTextContainer">
-          <div className="IntroText">
+        <div className="intro-text-container">
+          <div className="intro-text">
             <IntroText
               heading="All your files in one secure location, accessible anywhere."
               content="Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers."
@@ -50,7 +50,7 @@ const App = () => {
             />
           </div>
         </div>
-        <div className="Features">
+        <div className="features">
           <FeatureCard
             icon={<AnywhereIcon />}
             heading="Access your files, anywhere"
@@ -76,11 +76,11 @@ const App = () => {
             size="24vw"
           />
         </div>
-        <div className="Body">
-          <div className="BodyPicture">
+        <div className="body">
+          <div className="body-picture">
             <BodyPicture />
           </div>
-          <div className="BodyText">
+          <div className="body-text">
             <BodyText
               heading="Stay productive, wherever you are"
               content={
@@ -100,12 +100,12 @@ const App = () => {
             />
           </div>
         </div>
-        <div className="TestimonialSection">
-          <div className="Testimonial">
-            <div className="BigQuotes">
+        <div className="testimonial-section">
+          <div className="testimonial">
+            <div className="big-quotes">
               <BigQuotes />
             </div>
-            <div className="TestimonialCards">
+            <div className="testimonial-cards">
               <TestimonialCard
                 message="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
                 name="Satish Patel"
@@ -129,16 +129,16 @@ const App = () => {
         </div>
       </main>
       <footer>
-        <div className="Footer">
-          <div className="FooterLogo">
+        <div className="footer">
+          <div className="footer-logo">
             <Logo />
           </div>
-          <div className="FooterItems">
+          <div className="footer-items">
             <Location>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </Location>
-            <div className="PhoneAndEmail">
+            <div>
               <PhoneContact>+1-543-123-4567</PhoneContact>
               <EmailContact>example@fylo.com</EmailContact>
             </div>
@@ -153,20 +153,20 @@ const App = () => {
               <FooterLink>Terms</FooterLink>
               <FooterLink>Privacy</FooterLink>
             </div>
-            <div className="Icons">
+            <div className="icons">
               <FacebookIcon />
               <TwitterIcon />
               <InstagramIcon />
             </div>
           </div>
-          <div className="EmailSignUp">
+          <div className="email-sign-up">
             <EmailSignUp
               heading="Get early access today"
               message="It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you"
               buttonText="Get Started For Free"
             />
           </div>
-          <div className="Attribution">
+          <div className="attribution">
             <span>
               Challenge by{" "}
               <a

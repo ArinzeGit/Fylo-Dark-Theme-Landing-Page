@@ -19,7 +19,7 @@ const Location = ({ children }: Props) => {
       </div>
       <a
         href="#"
-        className="Location"
+        className="location"
         style={{
           fontFamily: "OpenSans",
           fontWeight: "400",

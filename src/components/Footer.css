@@ -1,21 +1,21 @@
-.Location, .PhoneContact, .EmailContact, .FooterLink{
+.location, .phone-contact, .email-contact, .footer-link{
     color:white;
     text-decoration: none;
 }
 
-.Location:hover, .PhoneContact:hover , .EmailContact:hover, .FooterLink:hover{
+.location:hover, .phone-contact:hover , .email-contact:hover, .footer-link:hover{
     font-weight: 700 !important;
 }
 
-svg.IconLink:hover circle{
+svg.icon-link:hover circle{
     stroke:hsl(176, 68%, 64%) ;
 }
 
-svg.IconLink:hover path{
+svg.icon-link:hover path{
     fill:hsl(176, 68%, 64%) ;
 }
 
-.VisuallyHidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -26,15 +26,15 @@ svg.IconLink:hover path{
     border: 0;
 }
 
-input.Input:focus{
+input.input:focus{
     outline: 3px solid  hsl(176, 68%, 64%);
 }
 
-.InputContainer{
+.input-container{
     position: relative;
 }
 
-.Error{
+.error{
     font-family: OpenSans;
     font-weight: 700;
     font-size: 0.625rem;

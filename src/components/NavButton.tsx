@@ -5,7 +5,7 @@ interface Props {
 const NavButton = ({ children }: Props) => {
   return (
     <span>
-      <a href="#" className="NavButton">
+      <a href="#" className="nav-button">
         {children}
       </a>
     </span>

@@ -24,7 +24,7 @@ const EmailContact = ({ children }: Props) => {
       </div>
       <a
         href="#"
-        className="EmailContact"
+        className="email-contact"
         style={{
           fontFamily: "OpenSans",
           fontWeight: "400",

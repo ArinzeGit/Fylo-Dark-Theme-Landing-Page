@@ -36,9 +36,9 @@ const BodyText = ({ heading, content, callToAction }: Props) => {
       >
         {content}
       </div>
-      <a href="#" className="CallToAction">
+      <a href="#" className="call-to-action">
         {callToAction}&nbsp;&nbsp;&nbsp;o
-        <span className="ArrowIcon">
+        <span className="arrow-icon">
           <ArrowIcon />
         </span>
       </a>

@@ -7,7 +7,7 @@ const FooterLink = ({ children }: Props) => {
   return (
     <div style={{ marginBottom: "0.85rem" }}>
       <a
-        className="FooterLink"
+        className="footer-link"
         href="#"
         style={{
           fontFamily: "OpenSans",

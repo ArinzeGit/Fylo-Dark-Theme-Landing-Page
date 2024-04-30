@@ -1,4 +1,4 @@
-a.CallToAction{
+a.call-to-action{
   color: hsl(176, 68%, 64%);
   font-family:OpenSans;
   font-weight: 400;
@@ -8,16 +8,16 @@ a.CallToAction{
   position: relative;
 }
 
-a.CallToAction:hover{
+a.call-to-action:hover{
   cursor:pointer;
   color: white;
 }
 
-a.CallToAction:hover .ArrowIcon use[fill="#62E0D9"] {
+a.call-to-action:hover .arrow-icon use[fill="#62E0D9"] {
   fill: white;
 }
 
-.ArrowIcon{
+.arrow-icon{
 position:absolute;
 right: -2px;
 }

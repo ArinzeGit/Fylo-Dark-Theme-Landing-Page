@@ -8,16 +8,12 @@
     src: url(./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
-.body{
-    margin: 0;
-}
-
-.App{
+.app{
     background-color:hsl(217, 28%, 15%) ;
     color: hsl(0, 0%, 100%);
 }
 
-.NavBar{
+.nav-bar{
     padding: 87.4px 0 0 0;
     float: right;
     width: 24.1vw;
@@ -25,16 +21,16 @@
     grid-template-columns: 3fr 2.44fr 3.2fr;
 }
 
-.HeaderLogo{
+.header-logo{
     padding: 4.563rem 0 0 5.4vw;
 }
 
-.IntroPicture{
+.intro-picture{
     text-align: center;
     margin-top: 74.9px;
 }
 
-.IntroTextContainer{
+.intro-text-container{
     background-image: url("../src/assets/images/bg-curvy-desktop.svg");
     background-size:100%;
     background-repeat: no-repeat;
@@ -44,14 +40,14 @@
     position: relative;
 }
 
-.IntroText{ 
+.intro-text{ 
     position:absolute;
     top: 6.5%;
     left: 50%;
     transform: translate(-50%);
 }
 
-.Features{
+.features{
     background-color: hsl(218, 28%, 13%);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,44 +57,44 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .Features {
+    .features {
         grid-template-columns: 1fr; /* Change from 2by2 grid to 1by4 grid for smaller screen */
     }
 }
 
-.Body{
+.body{
     background-color:hsl(218, 28%, 13%) ;
     text-align: center;
     padding-top: 6.5rem;
 }
 
-.BodyPicture, .BodyText{
+.body-picture, .body-text{
     display: inline-block;
     vertical-align:middle;
     text-align: left;
     margin: 1.78rem;
 }
 
-.BodyText{
+.body-text{
     padding-top:2.5rem;
 }
 
-.TestimonialSection{
+.testimonial-section{
     background-color:hsl(218, 28%, 13%) ;
     padding: 9.4rem 9.55vw 22.5rem;
 }
 
-.Testimonial{ /* parent of .BigQuotes and .TestimonialCards */
+.testimonial{ /* parent of .big-quotes and .testimonial-cards */
     position: relative;
 }
 
-.BigQuotes{
+.big-quotes{
     position: absolute;
     transform: translate(-15% ,-85%);
     z-index: auto;
 }
 
-.TestimonialCards{
+.testimonial-cards{
     position: relative;
     z-index: 1;
     display: flex;
@@ -106,52 +102,52 @@
 }
 
 @media screen and (max-width: 1345px) {
-    .TestimonialCards{
+    .testimonial-cards{
         display: grid !important ; /*change horizontal flexbox to vertical grid for smaller screen*/
         grid-template-columns: 1fr;
         gap:50px;    
     }
 
-    .Testimonial{
+    .testimonial{
         display: inline-block; /*change from block to inline-block so that text-align:center can be used to center it*/
     }
 
-   .TestimonialSection{
+   .testimonial-section{
     text-align: center;
    }
 }
 
-.Footer{
+.footer{
     background-color: hsl(216, 53%, 9%);
     padding: 12.7rem 0 5rem 8.15vw;
     position: relative;
 }
 
-.FooterLogo{
+.footer-logo{
     margin-bottom: 1.95rem;
 }
 
-.FooterItems{
+.footer-items{
     display:grid;
     grid-template-columns: 11.5fr 7.85fr 3.7fr 4.87fr 4.98fr;
 }
 
 @media screen and (max-width: 1000px) { /* for smaller screen */
-    .FooterLogo{
+    .footer-logo{
         margin-bottom: 100px;
     }
     
-    .FooterItems{
+    .footer-items{
         grid-template-columns: 1fr;
         gap: 100px;
     }
 
-    .FooterItems .Icons{
+    .footer-items .icons{
         text-align: center;
     }
 }
 
-.EmailSignUp{
+.email-sign-up{
     position:absolute;
     left:50%;
     top:0;
@@ -159,21 +155,21 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .EmailSignUp .InputContainer{
+    .email-sign-up .input-container{
         width: 70% !important;
         margin: 0 0 3rem 0 !important;
     }
 
-    .EmailSignUp .Button{
+    .email-sign-up .button{
         width: 70% !important;
     }
 
-    .EmailSignUp{
+    .email-sign-up{
         transform: translate(-50%, -65%);
     }
 }
 
-.Attribution {
+.attribution {
     font-size: 11px;
     position:absolute;
     bottom: 1rem;
@@ -182,7 +178,7 @@
     color:hsl(30, 100%, 50%);
 }
 
-.Attribution a {
+.attribution a {
     color:  hsl(216, 53%, 50%);
 }
 

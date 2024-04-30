@@ -26,7 +26,7 @@ const PhoneContact = ({ children }: Props) => {
       </div>
       <a
         href="#"
-        className="PhoneContact"
+        className="phone-contact"
         style={{
           fontFamily: "OpenSans",
           fontWeight: "400",

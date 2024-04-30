@@ -1,4 +1,4 @@
-a.NavButton{
+a.nav-button{
     color:white;
     font-family: Raleway;
     font-weight: 400;
@@ -6,7 +6,7 @@ a.NavButton{
     font-size: 1rem;
 }
     
-a.NavButton:hover{
+a.nav-button:hover{
     cursor:pointer;
     text-decoration: underline;
     font-weight: 700;
