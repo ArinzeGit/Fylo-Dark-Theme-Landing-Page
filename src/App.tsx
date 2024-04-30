@@ -128,60 +128,58 @@ const App = () => {
           </div>
         </div>
       </main>
-      <footer>
-        <div className="footer">
-          <div className="footer-logo">
-            <Logo />
+      <footer className="footer">
+        <div className="footer-logo">
+          <Logo />
+        </div>
+        <div className="footer-items">
+          <Location>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </Location>
+          <div>
+            <PhoneContact>+1-543-123-4567</PhoneContact>
+            <EmailContact>example@fylo.com</EmailContact>
           </div>
-          <div className="footer-items">
-            <Location>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </Location>
-            <div>
-              <PhoneContact>+1-543-123-4567</PhoneContact>
-              <EmailContact>example@fylo.com</EmailContact>
-            </div>
-            <div>
-              <FooterLink>About Us</FooterLink>
-              <FooterLink>Jobs</FooterLink>
-              <FooterLink>Press</FooterLink>
-              <FooterLink>Blog</FooterLink>
-            </div>
-            <div>
-              <FooterLink>Contact Us</FooterLink>
-              <FooterLink>Terms</FooterLink>
-              <FooterLink>Privacy</FooterLink>
-            </div>
-            <div className="icons">
-              <FacebookIcon />
-              <TwitterIcon />
-              <InstagramIcon />
-            </div>
+          <div>
+            <FooterLink>About Us</FooterLink>
+            <FooterLink>Jobs</FooterLink>
+            <FooterLink>Press</FooterLink>
+            <FooterLink>Blog</FooterLink>
           </div>
-          <div className="email-sign-up">
-            <EmailSignUp
-              heading="Get early access today"
-              message="It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you"
-              buttonText="Get Started For Free"
-            />
+          <div>
+            <FooterLink>Contact Us</FooterLink>
+            <FooterLink>Terms</FooterLink>
+            <FooterLink>Privacy</FooterLink>
           </div>
-          <div className="attribution">
-            <span>
-              Challenge by{" "}
-              <a
-                href="https://www.frontendmentor.io?ref=challenge"
-                target="_blank"
-              >
-                Frontend Mentor
-              </a>
-              . Coded by{" "}
-              <a href="https://github.com/ArinzeGit" target="_blank">
-                Arinze Owoh
-              </a>
-              .
-            </span>
+          <div className="icons">
+            <FacebookIcon />
+            <TwitterIcon />
+            <InstagramIcon />
           </div>
+        </div>
+        <div className="email-sign-up">
+          <EmailSignUp
+            heading="Get early access today"
+            message="It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you"
+            buttonText="Get Started For Free"
+          />
+        </div>
+        <div className="attribution">
+          <span>
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://github.com/ArinzeGit" target="_blank">
+              Arinze Owoh
+            </a>
+            .
+          </span>
         </div>
       </footer>
     </div>
