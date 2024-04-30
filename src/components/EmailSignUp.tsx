@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import Button from "./Button";
-import EmailValidation from "./EmailValidation";
+import validateEmail from "../utils/validateEmail";
 import "./Footer.css";
 
 interface Props {
@@ -20,7 +20,7 @@ const EmailSignUp = ({ heading, message, buttonText }: Props) => {
 
   function handleValidation(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setError(EmailValidation(emailValue));
+    setError(validateEmail(emailValue));
   }
 
   return (

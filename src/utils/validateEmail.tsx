@@ -1,4 +1,4 @@
-const EmailValidation = (emailValue: string) => {
+const validateEmail = (emailValue: string) => {
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,6}$/;
   let error = "";
 
@@ -11,4 +11,4 @@ const EmailValidation = (emailValue: string) => {
   return error;
 };
 
-export default EmailValidation;
+export default validateEmail;
