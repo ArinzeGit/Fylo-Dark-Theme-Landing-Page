@@ -46,6 +46,7 @@ Users should be able to:
 - CSS custom properties
 - [Flexbox](https://www.w3.org/TR/css-flexbox-1/) - CSS web layout model
 - CSS grid - CSS web layout model
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
 - [TypeScript](https://www.typescriptlang.org/) - Programming language that extends JavaScript
 - [React](https://react.dev/) - JavaScript library
 - [Node.js](https://nodejs.org/) - JavaScript runtime environment
