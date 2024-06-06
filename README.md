@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-Big screen:  
+**Big screen:**  
 ![Fylo Dark Theme Landing Page Screenshot1](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot1.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot2](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot2.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot3](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot4](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot4.PNG)
 
-Mobile Screen:  
+**Mobile Screen:**  
 ![Fylo Dark Theme Landing Page Screenshot1-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot1-mobile.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot2-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot2-mobile.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot3-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3-mobile.PNG)  
