@@ -33,6 +33,15 @@ Big screen:
 ![Fylo Dark Theme Landing Page Screenshot3](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot4](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot4.PNG)
 
+Mobile Screen:  
+![Fylo Dark Theme Landing Page Screenshot1-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot1-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot2-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot2-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot3-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot4-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot4-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot5-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot5-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot6-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot6-mobile.PNG)  
+![Fylo Dark Theme Landing Page Screenshot7-mobile](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot7-mobile.PNG)
+
 ### Links
 
 - Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/Fylo-Dark-Theme-Landing-Page)
