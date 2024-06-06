@@ -4,7 +4,7 @@ const IntroPicture = () => {
     <img
       src={IntroPictureSrc}
       alt="All your files in one location, accesible anywhere"
-      style={{ width: "49.5vw", height: "auto" }}
+      style={{ width: "712.8px", height: "auto" }}
     />
   );
 };

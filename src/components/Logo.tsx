@@ -2,7 +2,7 @@ import LogoSrc from "../../src/assets/images/logo.svg";
 const Logo = () => {
   return (
     <img
-      style={{ width: "12.1vw", height: "auto" }}
+      style={{ width: "174.24px", height: "auto" }}
       src={LogoSrc}
       alt="Fylo Logo"
     />

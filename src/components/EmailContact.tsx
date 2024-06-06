@@ -9,7 +9,7 @@ const EmailContact = ({ children }: Props) => {
     <div
       style={{
         position: "relative",
-        paddingLeft: "3.1vw",
+        paddingLeft: "44.64px",
       }}
     >
       <div

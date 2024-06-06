@@ -8,10 +8,9 @@ const Location = ({ children }: Props) => {
   return (
     <div
       style={{
-        width: "27vw",
-        minWidth: "270px",
+        width: "min(80%,388.8px)",
         position: "relative",
-        paddingLeft: "2.77vw",
+        paddingLeft: "39.88px",
       }}
     >
       <div style={{ position: "absolute", top: "3px", left: "0" }}>

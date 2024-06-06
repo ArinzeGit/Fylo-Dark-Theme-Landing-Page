@@ -8,43 +8,58 @@
     src: url(./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
+img{
+    max-width: 100%;
+}
+
 .app{
     background-color:hsl(217, 28%, 15%) ;
     color: hsl(0, 0%, 100%);
 }
 
-.nav-bar{
-    padding: 87.4px 0 0 0;
-    float: right;
-    width: 24.1vw;
-    display:grid;
-    grid-template-columns: 3fr 2.44fr 3.2fr;
+nav{
+    display:flex;
+    padding: 4.563rem 4.46vw 0 5.4vw;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
-.header-logo{
-    padding: 4.563rem 0 0 5.4vw;
+.nav-bar{
+    width: 283px;
+    display:flex;
+    justify-content: space-between;
+}
+
+@media (max-width:600px){
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-bar{
+        width: 80%;
+        margin-top: 2rem;
+    }
 }
 
 .intro-picture{
     text-align: center;
-    margin-top: 74.9px;
+    margin: 74.9px auto 0;
+    width:80%;
 }
 
-.intro-text-container{
+.intro-text-section{
     background-image: url("../src/assets/images/bg-curvy-desktop.svg");
     background-size:100%;
     background-repeat: no-repeat;
-    background-position: left 0px bottom -27%;
-    height: 36.6vw;
-    min-height: 436px;
-    position: relative;
+    background-position: left 0px bottom 0px;
+    min-height: 527px;
+    Padding:1.77rem 0 10rem;
 }
 
-.intro-text{ 
-    position:absolute;
-    top: 6.5%;
-    left: 50%;
-    transform: translate(-50%);
+.intro-text-container{ 
+    margin: 0 auto;
+    width: min(80%,950px);
 }
 
 .features{
@@ -56,36 +71,40 @@
     gap:5.7rem 0 ;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1345px) {
     .features {
         grid-template-columns: 1fr; /* Change from 2by2 grid to 1by4 grid for smaller screen */
+        padding:0 10vw;
     }
 }
 
 .body{
     background-color:hsl(218, 28%, 13%) ;
-    text-align: center;
-    padding-top: 6.5rem;
-}
-
-.body-picture, .body-text{
-    display: inline-block;
-    vertical-align:middle;
-    text-align: left;
-    margin: 1.78rem;
+    padding: 6.5rem 5% 0;
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 1345px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .body-text{
-    padding-top:2.5rem;
+    padding:2.5rem 0 1rem;
+    margin:0 0 0 3.5rem;
+    @media screen and (max-width: 1345px) {
+        margin:3.5rem 0 0;
+    }
 }
 
 .testimonial-section{
     background-color:hsl(218, 28%, 13%) ;
-    padding: 9.4rem 9.55vw 22.5rem;
+    padding: 9.4rem 9.5% 22.5rem;
 }
 
 .testimonial{ /* parent of .big-quotes and .testimonial-cards */
     position: relative;
+    max-width: 1600px;
 }
 
 .big-quotes{
@@ -95,7 +114,7 @@
 }
 
 .testimonial-cards{
-    position: relative;
+    position: relative; /*must be positioned for z-index to work*/
     z-index: 1;
     display: flex;
     justify-content: space-between; 
@@ -117,6 +136,12 @@
    }
 }
 
+@media screen and (max-width: 470px) {
+    .testimonial-section{
+        padding-bottom: 32rem;
+    }
+}
+
 .footer{
     background-color: hsl(216, 53%, 9%);
     padding: 12.7rem 0 5rem 8.15vw;
@@ -134,7 +159,7 @@
 
 @media screen and (max-width: 1000px) { /* for smaller screen */
     .footer-logo{
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
     
     .footer-items{
@@ -144,6 +169,12 @@
 
     .footer-items .icons{
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer{
+        padding-top:20rem ;
     }
 }
 

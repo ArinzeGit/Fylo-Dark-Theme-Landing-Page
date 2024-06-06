@@ -28,6 +28,9 @@ const App = () => {
   return (
     <div className="app">
       <nav>
+        <div className="header-logo">
+          <Logo />
+        </div>
         <div className="nav-bar">
           <NavButton>Features</NavButton>
           <NavButton>Team</NavButton>
@@ -35,14 +38,11 @@ const App = () => {
         </div>
       </nav>
       <main>
-        <div className="header-logo">
-          <Logo />
-        </div>
         <div className="intro-picture">
           <IntroPicture />
         </div>
-        <div className="intro-text-container">
-          <div className="intro-text">
+        <div className="intro-text-section">
+          <div className="intro-text-container">
             <IntroText
               heading="All your files in one secure location, accessible anywhere."
               content="Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers."
@@ -55,25 +55,25 @@ const App = () => {
             icon={<AnywhereIcon />}
             heading="Access your files, anywhere"
             content="The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
-            size="24vw"
+            maxWidth="345.6px"
           />
           <FeatureCard
             icon={<SecurityIcon />}
             heading="Security you can trust"
             content="2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files"
-            size="26.5vw"
+            maxWidth="381.6px"
           />
           <FeatureCard
             icon={<CollaborationIcon />}
             heading="Real-time collaboration"
             content="Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
-            size="26vw"
+            maxWidth="374.4px"
           />
           <FeatureCard
             icon={<StoreIcon />}
             heading="Store any type of file"
             content="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared"
-            size="24vw"
+            maxWidth="345.6px"
           />
         </div>
         <div className="body">

@@ -4,15 +4,15 @@ interface Props {
   icon: ReactNode;
   heading: string;
   content: string;
-  size: string;
+  maxWidth: string;
 }
 
-const FeatureCard = ({ icon, heading, content, size }: Props) => {
+const FeatureCard = ({ icon, heading, content, maxWidth }: Props) => {
   return (
     <div
       style={{
         textAlign: "center",
-        width: size,
+        maxWidth,
       }}
     >
       <div>{icon}</div>

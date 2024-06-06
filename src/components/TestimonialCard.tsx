@@ -8,7 +8,7 @@ const TestimonialCard = ({ message, name, occupation, pictureSrc }: Props) => {
   return (
     <div
       style={{
-        width: "22.5rem",
+        maxWidth: "22.5rem",
         padding: "2.25rem 0.9rem 1.6rem 1.6rem",
         backgroundColor: "hsl(219, 30%, 18%)",
         borderRadius: "4px",

@@ -12,7 +12,7 @@ const BodyText = ({ heading, content, callToAction }: Props) => {
   return (
     <div
       style={{
-        width: "35rem",
+        maxWidth: "35rem",
       }}
     >
       <p
@@ -20,7 +20,7 @@ const BodyText = ({ heading, content, callToAction }: Props) => {
           fontFamily: "Raleway",
           fontWeight: "700",
           fontSize: "2.5275rem",
-          width: "28rem",
+          maxWidth: "28rem",
           lineHeight: "3.25rem",
         }}
       >
