@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Fylo Dark Theme Landing Page Screenshot1](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot1.PNG)
-![Fylo Dark Theme Landing Page Screenshot2](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot2.PNG)
-![Fylo Dark Theme Landing Page Screenshot3](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3.PNG)
+Big screen:  
+![Fylo Dark Theme Landing Page Screenshot1](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot1.PNG)  
+![Fylo Dark Theme Landing Page Screenshot2](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot2.PNG)  
+![Fylo Dark Theme Landing Page Screenshot3](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot3.PNG)  
 ![Fylo Dark Theme Landing Page Screenshot4](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot4.PNG)
-![Fylo Dark Theme Landing Page Screenshot5](public/Fylo%20Dark%20Theme%20Landing%20Page%20Screenshot5.PNG)
 
 ### Links
 
