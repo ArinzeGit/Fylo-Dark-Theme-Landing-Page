@@ -1,6 +1,6 @@
 # Fylo dark theme landing page
 
-This is my solution to the ['Fylo dark theme landing page' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
+A visually appealing landing page inspired by the Fylo Dark Theme design from the ['Fylo dark theme landing page' Frontend Mentor challenge](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). This project demonstrates my ability to implement complex UI designs and interactive features using React and TypeScript, focusing on achieving a polished and responsive layout.
 
 ## Table of contents
 
