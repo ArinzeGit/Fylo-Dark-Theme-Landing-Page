@@ -1,6 +1,6 @@
 # Fylo dark theme landing page
 
-A visually appealing landing page inspired by the Fylo Dark Theme design. This project demonstrates my ability to implement `complex UI` designs and interactive features using `React` and `TypeScript`, focusing on achieving a polished and `responsive` layout. I got the design from the ['Fylo dark theme landing page' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
+A visually appealing landing page inspired by the Fylo Dark Theme design. This project demonstrates my ability to integrate `React UI components` to achieve complex `UI designs` and interactive features using `React` and `TypeScript`, focusing on achieving a polished and `responsive` layout. I got the design from the ['Fylo dark theme landing page' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
 
 ## Table of contents
 
